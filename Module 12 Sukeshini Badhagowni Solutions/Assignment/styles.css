@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body,html 
+{
+position: absolute;
+width: 1080px;
+height: 720px;
+
+background: linear-gradient(103.71deg, rgba(97, 192, 191, 0.28) 5.64%, rgba(255, 182, 185, 0.46) 45.19%, #FAE3D9 86.43%);
+}
+.header1 
+{
+
+position: absolute;
+width: 669px;
+height: 116px;
+left: 45%;
+top: 92px;
+
+font-family: 'Sen';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 116px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title
+{
+    font-size: 36px;
+    line-height: 46px;
+    text-align: right;
+    text-transform: capitalize;
+    color  : #000;
+    letter-spacing: 1px;
+    word-spacing: 50px;
+}
+
+
+.sub
+{
+    /* position: absolute; */
+/* width: 150px;
+height: 48px;
+left: 454px;
+top: 517px; */
+
+font-family: 'Sen';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+text-transform: capitalize;
+padding-left: 15%;
+
+color: #FFFFFF;
+/* position: absolute; */
+width: 275px;
+height: 56px;
+left: 386px;
+top: 517px;
+
+background: rgba(60, 160, 255, 0.84);
+}
+
+.form-container
+{
+    width : 120%;
+    margin-left: 0%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 300px;
+  
+}
+.form-input
+{
+    width: 120px;
+    margin: 0 50px;
+    display: inline-block;
+    padding: 5px ;
+}
+.input-field
+{
+   
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    width: 140px;
+    border: none;
+    min-height: 10px;
+    padding: 12px;
+    margin-top: 40%;
+}
+
+.form {
+    margin-left: 30%;
+}
+
+.submit
+{
+    margin-left: 60%;
+    margin-top: 5%;
+}
+
+.result
+{
+width: 776px;
+height: 54px;
+left: 127px;
+top: 619px;
+
+font-family: 'Sen';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 29px;
+/* or 91% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.09em;
+text-transform: capitalize;
+
+color: #20B2AA;
+margin-left: 40%;
+margin-top: 5%;
+}

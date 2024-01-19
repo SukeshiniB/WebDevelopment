@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 12</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- <header>
+        <div class="header1">
+            Age Calculator
+        </div>
+    </header> -->
+
+    <main>
+        <div class="header1">
+            Age Calculator
+        </div>
+        <form class="form">
+            <div class="form-container">
+                <div class="form-input">
+                    <label class="title" for="CDate" >Date(DD)</label><br>
+                    <input  class="input-field" type="number" id="CDate" name="CDate" required="required" minlength="1"> <br>
+                </div>
+                <div class="form-input">
+                    <label class="title" for="CMonth">Month(MM) </label><br>
+                    <input  class="input-field" type="number" id="CMonth" name="CMonth" required="required" minlength="1"><br>
+                </div>
+                <div class="form-input">
+                    <label class="title" for="CYear">Year(YY) </label> <br>
+                    <input  class="input-field" type="number" id="CYear" name="CYear" required="required" minlength="1"><br><br>
+                </div>
+            </div>
+        </form>
+        <div class="submit">       
+            <button class="sub" type="submit" onclick="agecalculation()"> Submit </button>
+        </div>
+
+        <!-- <div class="alert">
+            <label class="alertmessage" id="alertmessage"> </label>
+          </div> -->
+
+          <div class="result" id="msg"></div>
+
+    </main>
+
+    <script src="./assignment.js"></script>
+</body>
+</html>
