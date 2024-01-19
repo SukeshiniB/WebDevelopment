@@ -1,12 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header'
+import { Navbar } from './Navbar';
+import { Card } from './Card';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      "Hello World"
-      </header>
+      <Header />
+      <Navbar />
+      <Card />
+      
+
+    
     </div>
   );
 }
