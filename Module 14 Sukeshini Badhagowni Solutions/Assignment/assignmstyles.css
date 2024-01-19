@@ -1,0 +1,18 @@
+
+/* body{
+    color: #000000;
+} */
+
+form {
+    border: 1px;
+    background-color:#eee;
+    padding: 5px;
+}
+div{
+    margin: 10px 0;;
+}
+
+/* Main body colour : #000000.
+Form section background color: blanchedalmond.
+Form background color: #eee.
+Input field border color: #ccc. */

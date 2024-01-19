@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: cyan;
+  }
+   
+  label {
+    font-weight: 700;
+  }
+  div {
+    margin: 10px 0;
+  }
+   
+  .error {
+    color: red;
+  }
+        </style>
+</head>
+<body>
+    <form id="tip">
+        <div>
+            <label>
+                Total bill paid
+                <input type="number" />
+                <span class="error" id="billError"></span>
+            </label>
+        </div>
+        <div>
+            <label>
+                Tip %age
+                <input type="number" />
+                <span class="error" id="tipError"></span>
+            </label>
+        </div>
+        <div>
+            <label>
+                Total number of people
+                <input type="number" />
+                <span class="error" id="peopleError"></span>
+            </label>
+        </div>
+        <button>Calculate</button>
+    </form>
+     
+    Total bill : <h2 id="total"></h2>
+    Individual contribution : <h3 id="ind-contri"></h3>
+    Individual Tip contribution: <h4 id="ind-tip-contri"></h4>
+</body>
+</html>
+

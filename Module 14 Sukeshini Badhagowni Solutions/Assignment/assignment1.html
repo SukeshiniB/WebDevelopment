@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-color:  #000000;
+    }
+
+    .form-section {
+        background-color: blanchedalmond
+    }
+    form {
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 10px;
+        background-color:#eee;
+    }
+    label {
+        font-weight: 700;
+    }
+    div {
+        margin: 10px 0;
+    }
+    .error {
+        color: red;
+     }
+     button{
+        border-radius: 50px;
+        color: black;
+        
+        padding: 10px;
+     }
+     input {
+        border: 1px solid #ccc;
+     }
+    </style>
+</head>
+<body>
+    <h1>SignUp</h1>
+
+    <form id="signup" novalidate>
+        <div>
+        <label >  
+            Full Name
+            <input class ="form-input" type="text" placeholder="Enter your full name"/>    
+            <span id="nameError" class="error"></span>
+        </label>
+       </div>
+       <div>
+        <label >  
+          Email ID
+            <input class = "form-input" type="email" placeholder="Enter your email ID"/>
+            <span id="emailError" class="error"></span>    
+        </label>
+    </div>
+    <div>
+        <label >  
+            Password
+            <input class="form-input" type="password" placeholder="Enter the password"/>  
+            <span id="passwordError" class="error"></span>  
+        </label>
+    </div>
+    <div>
+        <label>
+            Confirm Password
+            <input  class="form-input" type="password" placeholder="Confirm your password"/>
+            <span id="CpasswordError" class="error"></span>
+        </label>
+    </div>
+        <button type="submit">SignUp</button>
+    </form>
+
+    <p id="final-msg"></p>
+    
+
+    <script src="./assignment1.js"></script>
+</body>
+</html>
