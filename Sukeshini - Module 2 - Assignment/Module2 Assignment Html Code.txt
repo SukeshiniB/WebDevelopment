@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <a href="#"><img class="logo" src=" https://blush.design/logo-lightmode.svg" alt="Logo Image"></a>
+            <nav>
+            <ul>
+                <li> <a href="#"> Work </a></li>
+                <li> <a href="#"> About </a></li>
+                <li> <a href="#"> Contact </a></li>
+                <li> <a href="#"> Download </a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="right-header">
+            <ul>
+                <li> <a href="#"> Sign In </a></li>
+                <li class="signup-btn"> <a href="#"> Sign Up </a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="left-section">
+                <h1 class="banner-heading"> Get insights with video interviews </h1>
+                <p> Target all clients during key moments throughout their product journey </p>
+                <div class="banner-btn-box">
+                    <span class="start-btn"> Start for free </span>
+                    <span> Talk to sale</span>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="./banner.png" alt="Banner Image" width="400px" height="500px">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a class="fa-link" href="https://facebook.com" target="_blank"> Facebook </a>
+            <a class="fa-link" href="https://twitter.com" target="_blank"> Twitter </a>
+            <a class="fa-link" href="https://behance.com" target="_blank"> Behance </a>
+            <a class="fa-link"href="https://linkedin.com" target="_blank"> LinkedIn </a>
+        </div>
+        <div>
+            <p>
+                &copy; 2016 Dean Conway. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
