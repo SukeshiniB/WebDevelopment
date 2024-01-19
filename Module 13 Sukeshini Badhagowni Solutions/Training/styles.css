@@ -1,0 +1,22 @@
+/* .example-div 
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+    position: relative;
+} */
+
+.d1{
+    Height : 100px;
+    Border : 1px solid black;
+    Background-color : blue;
+    }
+    .d2 {
+    Color :#fff;
+    Font-size : 20px
+    }
+    .hide {
+    Display : none;
+    }
+    
